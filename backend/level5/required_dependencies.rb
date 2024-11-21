@@ -1,0 +1,46 @@
+require 'json'
+require 'date'
+
+require_relative 'shared/duration_in_days'
+require_relative 'shared/string_formatter'
+
+require_relative 'cars/car'
+require_relative 'cars/cars_builder'
+
+require_relative 'rentals/rental'
+require_relative 'rentals/rentals_builder'
+
+require_relative 'commissions/commission_calculator'
+
+require_relative 'commissions/assistance_commission_calculator'
+require_relative 'commissions/drivy_commission_calculator'
+require_relative 'commissions/insurance_commission_calculator'
+require_relative 'commissions/option_additional_insurance_commission_calculator'
+require_relative 'commissions/option_baby_seat_commission_calculator'
+require_relative 'commissions/option_gps_commission_calculator'
+require_relative 'commissions/total_options_commission_calculator'
+require_relative 'commissions/total_options_drivy_commission_calculator'
+require_relative 'commissions/total_regular_commission_calculator'
+
+require_relative 'pricing/price_calculator'
+require_relative 'pricing/option_price_calculator'
+
+require_relative 'pricing/distance_price_calculator'
+require_relative 'pricing/duration_price_calculator'
+require_relative 'pricing/option_additional_insurance_price_calculator'
+require_relative 'pricing/option_baby_seat_price_calculator'
+require_relative 'pricing/option_gps_price_calculator'
+require_relative 'pricing/total_options_price_calculator'
+require_relative 'pricing/total_price_calculator'
+require_relative 'pricing/total_price_without_options_calculator'
+
+require_relative 'incomes/owner_incomes_calculator'
+
+require_relative 'rental_reports/rental_report'
+require_relative 'rental_reports/rental_report_builder'
+require_relative 'rental_reports/rental_reports_builder'
+
+require_relative 'json/output_data_builder'
+require_relative 'json/data_parse_input_file'
+require_relative 'json/data_write_output_file'
+require_relative 'json/data_comparator'
